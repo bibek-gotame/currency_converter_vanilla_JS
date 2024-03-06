@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #78A083;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #50727B;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container h1,
+h2 {
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input {
+    height: 2rem;
+    width: 80%;
+    border: 2px solid lightslategray;
+    border-radius: .5rem;
+}
+
+.exchange {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.from-c{
+    
+}
+
+
+.exchange i {
+
+    font-size: 2rem;
+}
+
+.select-container {
+    padding: .2rem;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid lightslategray;
+
+}
+
+.select-container img {
+    width: 4rem;
+}
+
+select {
+    width: 4rem;
+    height: 2rem;
+    font-size: 1.15rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+.msg {
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    text-align: center;
+}
+
+button {
+    background-color: #344955;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    /* margin-inline: auto; */
+}
